@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Carregar os dados
-dfcma = pd.read_excel('C:/Users/ottoh/OneDrive/Doutorado/Tese/Resultados/Imagine/MIT1/CMA_MIT1.xlsx')
+dfcma = pd.read_excel('C:/Users/CMA_MIT1.xlsx')
 
 # Ordenar os dados pelo custo da medida
 dfcma = dfcma.sort_values('custo da medida')
